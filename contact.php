@@ -1,20 +1,20 @@
 <?php require("inc/header.php") ?>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron">
-      <div class="container">
+<!-- Jumbotron -->
+<div class="jumbotron">
+    <div class="container">
         <div id="details" class="text-center">
-          <h1 class="animate__animated animate__backInLeft">My<span>Blog</span></h1>
-          <p class="animate__animated animate__backInRight">This is My Custom Blog for Share My Ideas</p>
+            <h1 class="animate__animated animate__backInLeft">My<span>Blog</span></h1>
+            <p class="animate__animated animate__backInRight">This is My Custom Blog for Share My Ideas</p>
         </div>
-      </div>
-      <!-- <img src="img/top-image.jpg" alt="my blog topbar image"> -->
     </div>
+    <!-- <img src="img/top-image.jpg" alt="my blog topbar image"> -->
+</div>
 
-    <!-- content  -->
-    <section>
+<!-- content  -->
+<section>
 
-      <div class="container">
+    <div class="container">
         <!-- Posts -->
         <div class="col-md-8">
 
@@ -23,7 +23,8 @@
                     <div class="map" data-aos="zoom-in" data-aos-duration="1000">
                         <h2>Find Us</h2>
                         <hr>
-                        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=samangala%20road,%20weranketagoda%20+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://add-map.org/'>.</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=617639df05f117ffa86af2858394e92d98f5a122'></script>
+                        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=samangala%20road,%20weranketagoda%20+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://add-map.org/'>.</a>
+                        <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=617639df05f117ffa86af2858394e92d98f5a122'></script>
                     </div>
                 </div>
                 <div class="col-md-12 contact-form" data-aos="zoom-in" data-aos-duration="1000">
@@ -53,11 +54,11 @@
 
         </div>
 
-        
+
 
         <!-- side bar -->
         <?php require("inc/sidebar.php") ?>
 
-    </section>
+</section>
 
 <?php require("inc/footer.php") ?>

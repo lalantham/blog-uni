@@ -59,3 +59,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+#user_table img {
+    width: 30px;
+}
+
+#name-td {
+    text-transform: capitalize;
+}

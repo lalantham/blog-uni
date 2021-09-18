@@ -8,6 +8,10 @@ if (isset($_GET['p_id'])) {
 
   $p_id = $_GET['p_id'];
 
+  $v_query = "UPDATE `posts` SET `views` = views + 1 WHERE `posts`.`id` = $p_id";
+
+  $con->query($v_query);
+
   $query = "SELECT * FROM posts WHERE status = 'publish' and id = $p_id";
 
   $post_result = $con->query($query);
@@ -28,7 +32,6 @@ if (isset($_GET['p_id'])) {
     $category = $row['category'];
     $post_data = $row['post_data'];
   } else {
-
     header('location: index.php');
   }
 }

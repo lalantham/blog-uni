@@ -57,68 +57,12 @@
                         <th>Image</th>
                         <th>Password</th>
                         <th>Role</th>
-                        <th>Post</th>
                         <th>Edit</th>
                         <th>Delete</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <th><input type="checkbox" class="form" class="form-check-input"></th>
-                        <td>1</td>
-                        <td>5 Jan 2021</td>
-                        <td>Micky Bro</td>
-                        <td>micky</td>
-                        <td>micky@mail.com</td>
-                        <td><img src="img/unkown.jpg" alt="" width="30px"></td>
-                        <td>1235</td>
-                        <td>Admin</td>
-                        <td>10</td>
-                        <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
-                        <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
-                    </tr>
-                    <tr>
-                        <th><input type="checkbox" class="form" class="form-check-input"></th>
-                        <td>1</td>
-                        <td>5 Jan 2021</td>
-                        <td>Micky Bro</td>
-                        <td>micky</td>
-                        <td>micky@mail.com</td>
-                        <td><img src="img/unkown.jpg" alt="" width="30px"></td>
-                        <td>1235</td>
-                        <td>Admin</td>
-                        <td>10</td>
-                        <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
-                        <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
-                    </tr>
-                    <tr>
-                        <th><input type="checkbox" class="form" class="form-check-input"></th>
-                        <td>1</td>
-                        <td>5 Jan 2021</td>
-                        <td>Micky Bro</td>
-                        <td>micky</td>
-                        <td>micky@mail.com</td>
-                        <td><img src="img/unkown.jpg" alt="" width="30px"></td>
-                        <td>1235</td>
-                        <td>Admin</td>
-                        <td>10</td>
-                        <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
-                        <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
-                    </tr>
-                    <tr>
-                        <th><input type="checkbox" class="form" class="form-check-input"></th>
-                        <td>1</td>
-                        <td>5 Jan 2021</td>
-                        <td>Micky Bro</td>
-                        <td>micky</td>
-                        <td>micky@mail.com</td>
-                        <td><img src="img/unkown.jpg" alt="" width="30px"></td>
-                        <td>1235</td>
-                        <td>Admin</td>
-                        <td>10</td>
-                        <td> <a href="#"><i class="fas fa-edit"></i></a> </td>
-                        <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
-                    </tr>
+                <tbody id="user_table">
+
                 </tbody>
             </table>
 
