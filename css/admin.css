@@ -44,10 +44,6 @@ a {
     font-size: 20px;
 }
 
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-    background-color: green!important;
-}
-
 footer {
     background-color: #222222;
     height: 50px;
@@ -58,6 +54,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    margin-bottom: -180px;
 }
 
 #user_table img {
@@ -66,4 +63,16 @@ footer {
 
 #name-td {
     text-transform: capitalize;
+}
+
+@media (max-width: 976px) {
+    footer {
+        margin-bottom: -380px;
+    }
+}
+
+@media (max-width: 399px) {   
+    footer {
+        margin-bottom: -390px;
+    }
 }
